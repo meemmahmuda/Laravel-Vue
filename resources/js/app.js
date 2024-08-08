@@ -6,6 +6,7 @@
 
 import './bootstrap.js';
 import { createApp } from 'vue';
+import store from './store/index.js';
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
@@ -24,6 +25,8 @@ import ProductAdd from './components/products/ProductAdd.vue';
 app.component('example-component', ExampleComponent);
 
 app.component('product-add', ProductAdd);
+
+
 
 /**
  * The following block of code may be used to automatically register your
